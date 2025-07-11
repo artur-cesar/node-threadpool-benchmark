@@ -1,0 +1,14 @@
+{
+  "name": "threadpool-benchmark",
+  "version": "1.0.0",
+  "description": "Thread pool benchmark in Node.js using crypto.pbkdf2",
+  "main": "benchmark.js",
+  "scripts": {
+    "start": "node benchmark.js"
+  },
+  "author": "Artur Cesar",
+  "license": "MIT",
+  "dependencies": {
+    "canvas": "^3.1.2"
+  }
+}
