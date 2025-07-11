@@ -10,7 +10,7 @@ Node.js uses a **thread pool behind the scenes** to offload expensive operations
 
 ```
 .
-├── benchmark.js       # Runs the benchmark
+├── main.js       # Runs the benchmark
 ├── plot.js            # Generates a graph from the results
 ├── results.csv        # Stores benchmark results (auto-generated)
 ├── Dockerfile         # Containerized setup
@@ -24,6 +24,9 @@ Node.js uses a **thread pool behind the scenes** to offload expensive operations
 
 ```bash
 docker build -t threadpool-benchmark .
+
+# makefile
+make build
 ```
 
 ### 2. Run with different thread pool sizes
