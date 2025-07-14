@@ -47,7 +47,10 @@ node plot.js
 
 This generates a file named `result.png`, showing execution time vs thread pool size.
 
-## 📊 Example Output
+## 📊 Benchmark chart result
+![Benchmark chart result](result.png "Benchmark chart result")
+
+## 💻 Example Output
 
 ```
 🧵 UV_THREADPOOL_SIZE = 4
